@@ -1,0 +1,38 @@
+
+.AlphaButtons{
+  border: 1px solid black;
+  padding:10px 5px;
+  box-shadow: -5px 10px 53px -33px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -5px 10px 53px -33px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 10px 53px -33px rgba(0,0,0,0.75);
+  border: 3px solid #ffffff;
+
+}
+.AlphaButtons-button {
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 30px;
+    margin: 5px 4px 4px 4px;
+    letter-spacing: 1px;
+    outline: none;
+    background:none;
+    /* background: #aed4a7; */
+    color: #fff;
+    box-shadow: 0 2px #76b39e;
+    /* border-radius: 50%; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  
+  .AlphaButtons-button:hover {
+    background-color: #76b39e;
+  }
+  
+  .AlphaButtons-button:disabled {
+    background: #e71979;
+    color: #eeeeee;
+    box-shadow: 0 2px #991356;
+  }
+  

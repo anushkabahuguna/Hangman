@@ -1,0 +1,57 @@
+.Hangman {
+  width: 400px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  zoom: 1.3;
+}
+
+.Hangman img {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+.Hangman h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  border-top: 2px solid rgb(255, 255, 255);
+  letter-spacing: .01em;
+}
+
+.Hangman-word {
+  letter-spacing: 1em;
+  margin: 0.4em -1em 0.2em 0;
+  font-size: 2rem;
+}
+
+
+
+.Hangman-reset{
+
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  /* margin: 1rem auto; */
+  letter-spacing: 1px;
+  outline: none;
+  /* background: #07a4ff; */
+  background:none;
+  color: rgb(255, 255, 255);
+  transition: border .5s ;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+.Hangman-reset:hover {
+  border-bottom: 2px solid #e71979;
+  color: #e71979;
+}
+.Hangman-last-btns{
+  display: flex;
+  margin: 1em auto;
+  justify-content:center;
+  gap: 2em;
+}
